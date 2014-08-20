@@ -1,0 +1,435 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding: 0;
+	margin: 0px auto;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/*----Class Selectors----*/
+.phonenumber{
+	font-size: 24px;
+}
+
+.nav{
+	margin-left: 15px;
+}
+
+.picmargin{
+	margin-top: 10px;
+}
+
+.testtitle{
+	font-size: 18px;
+	color: #5b3532;
+}
+
+.testtitle2{
+	font-size: 18px;
+	color: #9c1f2f;
+}
+
+.gallery{
+	color: #5b3532;
+}
+
+.gallery_th{
+	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+.testimonials{
+	color: #9c1f2f;
+}
+
+.blog{
+	color: #c4996c;
+}
+
+.aboutus{
+	color: #5b7AA5;
+}
+
+.aboutustitle{
+	font-size: 18px;
+	color: #5B7AA5;
+}
+
+.contact{
+	color: #85925c;
+}
+
+.contacttitle{
+	font-size: 16px;
+	color: #85925c;
+}
+
+
+/*----ID Selectors----*/
+
+/*----Splash----*/
+
+#stupid{
+	position: absolute;
+	margin: 300px 0px 0px 300px;
+}
+
+#stupid a{
+	text-decoration: none;
+	color: #829055;
+}
+
+/*----Home----*/
+
+#sitecontainer{
+	position: relative;
+	width: 1024px;
+	height: 768px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+
+#header{
+	width: 1024px;
+	height: 115px;
+}
+
+#logo{
+	width: 350px;
+	float: left;
+}
+
+#facebook{
+	position: absolute;
+	right: -5px;
+	float: right;
+	margin-top: 48px;
+}
+
+#nav{
+	left: 350px;
+	height: 30px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 80px;
+	font-size: 14px;
+	
+}
+
+#nav a{
+	text-decoration: none;
+	color: #000;
+}
+
+#contactinfo{
+	position: absolute;
+	right: 0px;
+	width: 330px;
+	height: 55px;
+	float: right;
+	text-align: right;
+	color: #022048;
+	z-index: -1;
+}
+
+/*----Home Page----*/
+
+#bannerblue1{
+	width: 256px;
+	height: 20px;
+	float: left;
+	background-color: #5b3532;
+}
+
+#bannerblue2{
+	width: 256px;
+	height: 20px;
+	float: left;
+	background-color: #911d30;
+}
+
+#bannerblue3{
+	width: 256px;
+	height: 20px;
+	float: left;
+	background-color: #c4996c;
+}
+
+#bannerblue4{
+	width: 256px;
+	height: 20px;
+	float: left;
+	background-color: #8c9a5f;
+}
+
+#banner{
+	width: 1024px;
+	height: 165px;
+}
+
+#hometest{
+	width: 475px;
+	height: 420px;
+	float: left;
+	margin-top: 30px;
+}
+
+#hometest a{
+	text-decoration: none;
+	color: #2f4C73;
+}
+
+#lines{
+	width: 20px;
+	height: 420px;
+	float: left;
+}
+
+#linedrk{
+	width: 20px;
+	height: 125px;
+	float: left;
+	background-color: #5b3532;
+}
+
+#linemed{
+	width: 20px;
+	height: 125px;
+	float: left;
+	margin-top: 20px;
+	background-color: #991e32;
+}
+
+#linelght{
+	width: 20px;
+	height: 125px;
+	float: left;
+	margin-top: 25px;
+	background-color: #829055;
+}
+
+#test1{
+	width: 450px;
+	height: 125px;
+	float: right;
+	font-size: 14px;
+}
+
+#test2{
+	width: 450px;
+	height: 125px;
+	float: right;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+#test3{
+	width: 450px;
+	height: 125px;
+	float: right;
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+#homeinfo{
+	width: 475px;
+	height: 145px;
+	float: right;
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+#homegalleryH{
+	width: 295px;
+	height: 267px;
+	float: right;
+	margin-top: 15px;
+}
+
+#homegalleryH img:hover{
+	opacity: 0.5;
+}
+
+#homegalleryV{
+	width: 157px;
+	height: 267px;
+	float: right;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#homegalleryV img:hover{
+	opacity: 0.5;
+}
+
+/*----Gallery Page----*/
+
+#bluebgrnd{
+	width: 100%;
+	height: 530px;
+	background-color: #911d30;
+	margin-top: 50px;
+}
+
+#thumbs{
+	width: 1025px;
+	margin-top: 10px;
+}
+
+#prevnext{
+	width: 395px;
+	height: 80px;
+	margin-top: 20px;
+	background-color: #366;
+}
+
+#lrgimgs{
+	width: 510px;
+	height: 510px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+/*----Testimonials Page----*/
+
+#testbanner{
+	width: 1024px;
+	height: 50px;
+}
+
+#testbanner1{
+	width: 185px;
+	height: 50px;
+	float: left;
+	background-color: #5b3532;
+}
+
+#testbanner2{
+	width: 185px;
+	height: 50px;
+	float: left;
+	background-color: #991e32;
+}
+
+#testbanner3{
+	width: 185px;
+	height: 50px;
+	float: left;
+	background-color: #c4996c;
+}
+
+#testbanner4{
+	width: 185px;
+	height: 50px;
+	float: left;
+	background-color: #849159;
+}
+
+
+#left{
+	width: 500px;
+	height: 100%;
+	float: left;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+#right{
+	width: 500px;
+	height: 515px;
+	float: right;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+#knot{
+	width: 380px;
+	height: 375px;
+	margin-left: 60px;
+}
+
+
+/*----Blog Page----*/
+
+
+/*----Contact Page----*/
+
+#infobox{
+	width: 400px;
+	height: 200px;
+	float: left;
+	margin-top: 50px;
+}
+
+#blurb{
+	width: 360px;
+	height: 55px;
+	float: left;
+	background-color: #849159;
+	color: #FFF;
+	padding: 5px;
+}
+
+#info{
+	width: 425px;
+	height: 120px;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+
+#formbox{
+	width: 550px;
+	height: 525px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+
+label {
+	width: 150px;
+	float: left;
+	text-align: right;
+}
+
+input, textarea {
+	color: #000;
+	background: #FFF;
+	border: 1px solid #849159;
+	font-size:14px;
+}
+
+input {
+	width:315px;
+	height: 30px;
+}
+
+textarea {
+	width:315px;
+	height: 220px;
+}
+
+.submit input {
+	float: right;
+	color: #FFF;
+	background: #849159;
+	border: none;
+	width:100px;
+	height: 35px;
+	font-size:16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+fieldset{
+	border: none;
+	width: 480px;
+}
+
+#clientaddress{
+	width: 1px;
+	visibility: hidden;
+}

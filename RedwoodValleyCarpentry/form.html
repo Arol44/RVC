@@ -1,0 +1,48 @@
+  <script type="text/javascript">
+  	function validateForm(){
+		var valid = true;
+		if(document.getElementById("clientname").value == ""){
+	
+			alert ("Please fill in 'Name' box.");
+	
+			valid = false
+		}else if(document.getElementById("clientemail").value == ""){
+	
+			alert ("Please fill in 'Email' box.");
+	
+			valid = false
+		}else if(document.getElementById("clientnumber").value == ""){
+	
+			alert ("Please fill in 'Phone Number' box.");
+	
+			valid = false
+		}else if(document.getElementById("message").value == ""){
+	
+			alert ("Please fill in 'Message' box.");
+	
+			valid = false
+		}
+		
+		return valid;
+		
+	}
+  </script>
+
+<form id="contactStephan" name="contactStephan" method="post" action="form.php" onSubmit="return validateForm();">
+  <fieldset>
+      <label for="clientname"><strong class="contacttitle">Name:</strong>&nbsp; </label>
+      <input type="text" name="clientname" id="clientname" required /><br /><br />
+      <label for="clientemail"><strong class="contacttitle">Email:</strong>&nbsp; </label>
+      <input type="email" name="clientemail" id="clientemail" required />
+      <input type="text" name="clientaddress" id="clientaddress" /><br /><br />
+      <label for="clientnumber"><strong class="contacttitle">Phone Number:</strong>&nbsp; </label>
+      <input type="tel" name="clientnumber" id="clientnumber" required /><br /><br />
+      <label for="message"><strong class="contacttitle">Message:</strong>&nbsp; </label>
+      <textarea name="message" id="message" cols="45" rows="5"></textarea><br /><br />
+      <p class="submit">
+      <input type="submit" name="button" id="button" value="Send" />
+      </p>
+    </fieldset>
+  </form>
+  
+
